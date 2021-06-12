@@ -1,0 +1,219 @@
+{
+    "id": "4480000000005953940620014915738777339009",
+    "type": "run",
+    "app_id": "COM.GARMIN.GARMIN",
+    "start_epoch_ms": 1422877055000,
+    "end_epoch_ms": 1422877105000,
+    "last_modified": 1427197864000,
+    "active_duration_ms": 30000,
+    "session": false,
+    "delete_indicator": false,
+    "summaries": [
+        {
+            "metric": "steps",
+            "summary": "total",
+            "source": "COM.GARMIN.GARMIN",
+            "app_id": "COM.GARMIN.GARMIN",
+            "value": 0
+        },
+        {
+            "metric": "distance",
+            "summary": "total",
+            "source": "COM.GARMIN.GARMIN",
+            "app_id": "COM.GARMIN.GARMIN",
+            "value": 0
+        },
+        {
+            "metric": "stars",
+            "summary": "total",
+            "source": "COM.GARMIN.GARMIN",
+            "app_id": "COM.GARMIN.GARMIN",
+            "value": 0
+        },
+        {
+            "metric": "grade",
+            "summary": "mean",
+            "source": "COM.GARMIN.GARMIN",
+            "app_id": "COM.GARMIN.GARMIN",
+            "value": 0
+        },
+        {
+            "metric": "nikefuel",
+            "summary": "mean",
+            "source": "COM.GARMIN.GARMIN",
+            "app_id": "COM.GARMIN.GARMIN",
+            "value": 0
+        },
+        {
+            "metric": "speed",
+            "summary": "mean",
+            "source": "COM.GARMIN.GARMIN",
+            "app_id": "COM.GARMIN.GARMIN",
+            "value": 0
+        },
+        {
+            "metric": "calories",
+            "summary": "total",
+            "source": "COM.GARMIN.GARMIN",
+            "app_id": "COM.GARMIN.GARMIN",
+            "value": 0
+        },
+        {
+            "metric": "nikefuel",
+            "summary": "total",
+            "source": "COM.GARMIN.GARMIN",
+            "app_id": "COM.GARMIN.GARMIN",
+            "value": 0
+        }
+    ],
+    "sources": [
+        "COM.GARMIN.GARMIN"
+    ],
+    "tags": {},
+    "change_tokens": [
+        "97568245e7ae96d6ebe10e6a6112d35d4113cdb1501e9873016f09aeb42474ca:1427197864000"
+    ],
+    "metric_types": [
+        "distance",
+        "grade",
+        "stars",
+        "calories",
+        "steps",
+        "nikefuel",
+        "speed"
+    ],
+    "metrics": [
+        {
+            "type": "stars",
+            "unit": "STAR",
+            "source": "COM.GARMIN.GARMIN",
+            "appId": "COM.GARMIN.GARMIN",
+            "values": [
+                {
+                    "start_epoch_ms": 1422877055000,
+                    "end_epoch_ms": 1422877105000,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "type": "nikefuel",
+            "unit": "FUEL",
+            "source": "COM.GARMIN.GARMIN",
+            "appId": "COM.GARMIN.GARMIN",
+            "values": [
+                {
+                    "start_epoch_ms": 1422877055000,
+                    "end_epoch_ms": 1422877105000,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "type": "speed",
+            "unit": "KMH",
+            "source": "COM.GARMIN.GARMIN",
+            "appId": "COM.GARMIN.GARMIN",
+            "values": [
+                {
+                    "start_epoch_ms": 1422877055000,
+                    "end_epoch_ms": 1422877065000,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1422877065000,
+                    "end_epoch_ms": 1422877075000,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1422877075000,
+                    "end_epoch_ms": 1422877085000,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1422877085000,
+                    "end_epoch_ms": 1422877095000,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1422877095000,
+                    "end_epoch_ms": 1422877105000,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "type": "grade",
+            "unit": "RATIO",
+            "source": "COM.GARMIN.GARMIN",
+            "appId": "COM.GARMIN.GARMIN",
+            "values": [
+                {
+                    "start_epoch_ms": 1422877055000,
+                    "end_epoch_ms": 1422877065000,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1422877065000,
+                    "end_epoch_ms": 1422877075000,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1422877075000,
+                    "end_epoch_ms": 1422877085000,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1422877085000,
+                    "end_epoch_ms": 1422877095000,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1422877095000,
+                    "end_epoch_ms": 1422877105000,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "type": "distance",
+            "unit": "KM",
+            "source": "COM.GARMIN.GARMIN",
+            "appId": "COM.GARMIN.GARMIN",
+            "values": [
+                {
+                    "start_epoch_ms": 1422877055000,
+                    "end_epoch_ms": 1422877105000,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "type": "calories",
+            "unit": "KCAL",
+            "source": "COM.GARMIN.GARMIN",
+            "appId": "COM.GARMIN.GARMIN",
+            "values": [
+                {
+                    "start_epoch_ms": 1422877055000,
+                    "end_epoch_ms": 1422877105000,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "type": "steps",
+            "unit": "STEP",
+            "source": "COM.GARMIN.GARMIN",
+            "appId": "COM.GARMIN.GARMIN",
+            "values": [
+                {
+                    "start_epoch_ms": 1422877055000,
+                    "end_epoch_ms": 1422877105000,
+                    "value": 0
+                }
+            ]
+        }
+    ],
+    "moments": []
+}

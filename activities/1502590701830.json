@@ -1,0 +1,1412 @@
+{
+    "id": "910188ec-8950-4849-8c61-442522a9f2dd",
+    "type": "run",
+    "app_id": "com.nike.sport.running.ios",
+    "start_epoch_ms": 1502580457178,
+    "end_epoch_ms": 1502590701830,
+    "last_modified": 1505653014827,
+    "active_duration_ms": 9891414,
+    "session": false,
+    "delete_indicator": false,
+    "summaries": [
+        {
+            "metric": "speed",
+            "summary": "mean",
+            "source": "com.nike.running.ios.applewatch",
+            "app_id": "com.nike.sport.running.ios",
+            "value": 0.05433587056639193
+        },
+        {
+            "metric": "nikefuel",
+            "summary": "total",
+            "source": "com.nike.nikefuelengine.1.0-A5.0",
+            "app_id": "com.nike.sport.running.ios",
+            "value": 23.802074993905098
+        },
+        {
+            "metric": "rpe",
+            "summary": "max",
+            "source": "com.nike.running.ios.manualentry",
+            "app_id": "com.nike.sport.running.ios",
+            "value": 4
+        },
+        {
+            "metric": "calories",
+            "summary": "total",
+            "source": "com.nike.running.ios.applewatch",
+            "app_id": "com.nike.sport.running.ios",
+            "value": 2.961
+        },
+        {
+            "metric": "pace",
+            "summary": "mean",
+            "source": "com.nike.running.ios.applewatch",
+            "app_id": "com.nike.sport.running.ios",
+            "value": 1104.2429130989478
+        },
+        {
+            "metric": "heart_rate",
+            "summary": "mean",
+            "source": "com.nike.running.ios.applewatch",
+            "app_id": "com.nike.sport.running.ios",
+            "value": 99.5
+        },
+        {
+            "metric": "distance",
+            "summary": "total",
+            "source": "com.nike.running.ios.applewatch",
+            "app_id": "com.nike.sport.running.ios",
+            "value": 0.14929405300627696
+        },
+        {
+            "metric": "nikefuel",
+            "summary": "mean",
+            "source": "com.nike.nikefuelengine.1.0-A5.0",
+            "app_id": "com.nike.sport.running.ios",
+            "value": 0.14438021698761228
+        }
+    ],
+    "sources": [
+        "com.nike.running.ios.applewatch",
+        "com.nike.running.ios.manualentry",
+        "com.nike.nikefuelengine.1.0-A5.0"
+    ],
+    "tags": {
+        "com_nike_running_goaltype": "freeRun",
+        "location": "outdoors"
+    },
+    "change_tokens": [
+        "d0af577ae98901f996113d4b87911f057af9baa6adaf90d6838799ad7295a33d:1505653014827",
+        "037aa80812c0753e40c26a2b0c5ec2fb0c8106b9f420e640febe1dd469981cfb:1502590725284"
+    ],
+    "metric_types": [
+        "distance",
+        "rpe",
+        "pace",
+        "heart_rate",
+        "calories",
+        "speed",
+        "nikefuel"
+    ],
+    "metrics": [
+        {
+            "type": "distance",
+            "unit": "KM",
+            "source": "com.nike.running.ios.applewatch",
+            "appId": "com.nike.sport.running.ios",
+            "values": [
+                {
+                    "start_epoch_ms": 1502590089407,
+                    "end_epoch_ms": 1502590161752,
+                    "value": 0.001367314241826534
+                },
+                {
+                    "start_epoch_ms": 1502590161752,
+                    "end_epoch_ms": 1502590166783,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590166783,
+                    "end_epoch_ms": 1502590171955,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590171955,
+                    "end_epoch_ms": 1502590180827,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590180827,
+                    "end_epoch_ms": 1502590188488,
+                    "value": 0.008664226821390912
+                },
+                {
+                    "start_epoch_ms": 1502590188488,
+                    "end_epoch_ms": 1502590194885,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590194885,
+                    "end_epoch_ms": 1502590196149,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590196149,
+                    "end_epoch_ms": 1502590202516,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590202516,
+                    "end_epoch_ms": 1502590254627,
+                    "value": 0.04755477106652688
+                },
+                {
+                    "start_epoch_ms": 1502590254627,
+                    "end_epoch_ms": 1502590255917,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590255917,
+                    "end_epoch_ms": 1502590275066,
+                    "value": 0.006323702656722163
+                },
+                {
+                    "start_epoch_ms": 1502590275066,
+                    "end_epoch_ms": 1502590295492,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590295492,
+                    "end_epoch_ms": 1502590307009,
+                    "value": 0.005181356390996372
+                },
+                {
+                    "start_epoch_ms": 1502590307009,
+                    "end_epoch_ms": 1502590377239,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590377239,
+                    "end_epoch_ms": 1502590393901,
+                    "value": 0.01248927725292742
+                },
+                {
+                    "start_epoch_ms": 1502590393901,
+                    "end_epoch_ms": 1502590410461,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590410461,
+                    "end_epoch_ms": 1502590452760,
+                    "value": 0.04689794442086714
+                },
+                {
+                    "start_epoch_ms": 1502590452760,
+                    "end_epoch_ms": 1502590461559,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590461559,
+                    "end_epoch_ms": 1502590475630,
+                    "value": 0.01460676834016339
+                },
+                {
+                    "start_epoch_ms": 1502590475630,
+                    "end_epoch_ms": 1502590493510,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590493510,
+                    "end_epoch_ms": 1502590499873,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590499873,
+                    "end_epoch_ms": 1502590686378,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590686378,
+                    "end_epoch_ms": 1502590696949,
+                    "value": 0.006208691814856143
+                }
+            ]
+        },
+        {
+            "type": "speed",
+            "unit": "KMH",
+            "source": "com.nike.running.ios.applewatch",
+            "appId": "com.nike.sport.running.ios",
+            "values": [
+                {
+                    "start_epoch_ms": 1502590153990,
+                    "end_epoch_ms": 1502590153990,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590156544,
+                    "end_epoch_ms": 1502590156544,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590182090,
+                    "end_epoch_ms": 1502590182090,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590202495,
+                    "end_epoch_ms": 1502590202495,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590205018,
+                    "end_epoch_ms": 1502590205018,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590207543,
+                    "end_epoch_ms": 1502590207543,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590210068,
+                    "end_epoch_ms": 1502590210068,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590212594,
+                    "end_epoch_ms": 1502590212594,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590215120,
+                    "end_epoch_ms": 1502590215120,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590217646,
+                    "end_epoch_ms": 1502590217646,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590220171,
+                    "end_epoch_ms": 1502590220171,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590222696,
+                    "end_epoch_ms": 1502590222696,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590225222,
+                    "end_epoch_ms": 1502590225222,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590227748,
+                    "end_epoch_ms": 1502590227748,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590230273,
+                    "end_epoch_ms": 1502590230273,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590232906,
+                    "end_epoch_ms": 1502590232906,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590235462,
+                    "end_epoch_ms": 1502590235462,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590238015,
+                    "end_epoch_ms": 1502590238015,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590240570,
+                    "end_epoch_ms": 1502590240570,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590243124,
+                    "end_epoch_ms": 1502590243124,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590245679,
+                    "end_epoch_ms": 1502590245679,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590248232,
+                    "end_epoch_ms": 1502590248232,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590255895,
+                    "end_epoch_ms": 1502590255895,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590258448,
+                    "end_epoch_ms": 1502590258448,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590261002,
+                    "end_epoch_ms": 1502590261002,
+                    "value": 4.265872363687613
+                },
+                {
+                    "start_epoch_ms": 1502590263557,
+                    "end_epoch_ms": 1502590263557,
+                    "value": 4.265872363687613
+                },
+                {
+                    "start_epoch_ms": 1502590266112,
+                    "end_epoch_ms": 1502590266112,
+                    "value": 4.265872363687613
+                },
+                {
+                    "start_epoch_ms": 1502590268666,
+                    "end_epoch_ms": 1502590268666,
+                    "value": 4.265872363687613
+                },
+                {
+                    "start_epoch_ms": 1502590294210,
+                    "end_epoch_ms": 1502590294210,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590296764,
+                    "end_epoch_ms": 1502590296764,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590299319,
+                    "end_epoch_ms": 1502590299319,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590378512,
+                    "end_epoch_ms": 1502590378512,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590381066,
+                    "end_epoch_ms": 1502590381066,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590383621,
+                    "end_epoch_ms": 1502590383621,
+                    "value": 4.859299089713628
+                },
+                {
+                    "start_epoch_ms": 1502590386176,
+                    "end_epoch_ms": 1502590386176,
+                    "value": 4.859299089713628
+                },
+                {
+                    "start_epoch_ms": 1502590411724,
+                    "end_epoch_ms": 1502590411724,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590414280,
+                    "end_epoch_ms": 1502590414280,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590416835,
+                    "end_epoch_ms": 1502590416835,
+                    "value": 4.298290353429256
+                },
+                {
+                    "start_epoch_ms": 1502590419389,
+                    "end_epoch_ms": 1502590419389,
+                    "value": 4.298290353429256
+                },
+                {
+                    "start_epoch_ms": 1502590421943,
+                    "end_epoch_ms": 1502590421943,
+                    "value": 4.298290353429256
+                },
+                {
+                    "start_epoch_ms": 1502590424498,
+                    "end_epoch_ms": 1502590424498,
+                    "value": 5.494161261887428
+                },
+                {
+                    "start_epoch_ms": 1502590427053,
+                    "end_epoch_ms": 1502590427053,
+                    "value": 5.494161261887428
+                },
+                {
+                    "start_epoch_ms": 1502590429608,
+                    "end_epoch_ms": 1502590429608,
+                    "value": 5.494161261887428
+                },
+                {
+                    "start_epoch_ms": 1502590432163,
+                    "end_epoch_ms": 1502590432163,
+                    "value": 5.246729504529586
+                },
+                {
+                    "start_epoch_ms": 1502590434718,
+                    "end_epoch_ms": 1502590434718,
+                    "value": 4.954604009817276
+                },
+                {
+                    "start_epoch_ms": 1502590437273,
+                    "end_epoch_ms": 1502590437273,
+                    "value": 4.954604009817276
+                },
+                {
+                    "start_epoch_ms": 1502590439828,
+                    "end_epoch_ms": 1502590439828,
+                    "value": 4.744496633570929
+                },
+                {
+                    "start_epoch_ms": 1502590442385,
+                    "end_epoch_ms": 1502590442385,
+                    "value": 4.564749755364978
+                },
+                {
+                    "start_epoch_ms": 1502590444941,
+                    "end_epoch_ms": 1502590444941,
+                    "value": 4.464320574066145
+                },
+                {
+                    "start_epoch_ms": 1502590447495,
+                    "end_epoch_ms": 1502590447495,
+                    "value": 4.464320574066145
+                },
+                {
+                    "start_epoch_ms": 1502590462825,
+                    "end_epoch_ms": 1502590462825,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590465381,
+                    "end_epoch_ms": 1502590465381,
+                    "value": 4.926523928391318
+                },
+                {
+                    "start_epoch_ms": 1502590467936,
+                    "end_epoch_ms": 1502590467936,
+                    "value": 4.926523928391318
+                },
+                {
+                    "start_epoch_ms": 1502590493485,
+                    "end_epoch_ms": 1502590493485,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590687644,
+                    "end_epoch_ms": 1502590687644,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "type": "pace",
+            "unit": "MKM",
+            "source": "com.nike.running.ios.applewatch",
+            "appId": "com.nike.sport.running.ios",
+            "values": [
+                {
+                    "start_epoch_ms": 1502590261002,
+                    "end_epoch_ms": 1502590261002,
+                    "value": 234.4186404901141
+                },
+                {
+                    "start_epoch_ms": 1502590263557,
+                    "end_epoch_ms": 1502590263557,
+                    "value": 14.06511842940685
+                },
+                {
+                    "start_epoch_ms": 1502590266112,
+                    "end_epoch_ms": 1502590266112,
+                    "value": 14.06511842940685
+                },
+                {
+                    "start_epoch_ms": 1502590268666,
+                    "end_epoch_ms": 1502590268666,
+                    "value": 14.06511842940685
+                },
+                {
+                    "start_epoch_ms": 1502590383621,
+                    "end_epoch_ms": 1502590383621,
+                    "value": 12.34745976575317
+                },
+                {
+                    "start_epoch_ms": 1502590386176,
+                    "end_epoch_ms": 1502590386176,
+                    "value": 12.34745976575317
+                },
+                {
+                    "start_epoch_ms": 1502590416835,
+                    "end_epoch_ms": 1502590416835,
+                    "value": 13.95903837723082
+                },
+                {
+                    "start_epoch_ms": 1502590419389,
+                    "end_epoch_ms": 1502590419389,
+                    "value": 13.95903837723082
+                },
+                {
+                    "start_epoch_ms": 1502590421943,
+                    "end_epoch_ms": 1502590421943,
+                    "value": 13.95903837723082
+                },
+                {
+                    "start_epoch_ms": 1502590424498,
+                    "end_epoch_ms": 1502590424498,
+                    "value": 10.92068418453884
+                },
+                {
+                    "start_epoch_ms": 1502590427053,
+                    "end_epoch_ms": 1502590427053,
+                    "value": 10.92068418453884
+                },
+                {
+                    "start_epoch_ms": 1502590429608,
+                    "end_epoch_ms": 1502590429608,
+                    "value": 10.92068418453884
+                },
+                {
+                    "start_epoch_ms": 1502590432163,
+                    "end_epoch_ms": 1502590432163,
+                    "value": 11.43569531232762
+                },
+                {
+                    "start_epoch_ms": 1502590434718,
+                    "end_epoch_ms": 1502590434718,
+                    "value": 12.10994862174925
+                },
+                {
+                    "start_epoch_ms": 1502590437273,
+                    "end_epoch_ms": 1502590437273,
+                    "value": 12.10994862174925
+                },
+                {
+                    "start_epoch_ms": 1502590439828,
+                    "end_epoch_ms": 1502590439828,
+                    "value": 12.64623091424584
+                },
+                {
+                    "start_epoch_ms": 1502590442385,
+                    "end_epoch_ms": 1502590442385,
+                    "value": 13.14420356329099
+                },
+                {
+                    "start_epoch_ms": 1502590444941,
+                    "end_epoch_ms": 1502590444941,
+                    "value": 13.43989505335891
+                },
+                {
+                    "start_epoch_ms": 1502590447495,
+                    "end_epoch_ms": 1502590447495,
+                    "value": 13.43989505335891
+                },
+                {
+                    "start_epoch_ms": 1502590465381,
+                    "end_epoch_ms": 1502590465381,
+                    "value": 12.17897261276311
+                },
+                {
+                    "start_epoch_ms": 1502590467936,
+                    "end_epoch_ms": 1502590467936,
+                    "value": 12.17897261276311
+                }
+            ]
+        },
+        {
+            "type": "nikefuel",
+            "unit": "FUEL",
+            "source": "com.nike.nikefuelengine.1.0-A5.0",
+            "appId": "com.nike.sport.running.ios",
+            "values": [
+                {
+                    "start_epoch_ms": 1502580457178,
+                    "end_epoch_ms": 1502580467000,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590087000,
+                    "end_epoch_ms": 1502590097000,
+                    "value": 0.3097664027117697
+                },
+                {
+                    "start_epoch_ms": 1502590097000,
+                    "end_epoch_ms": 1502590107000,
+                    "value": 0.4540499162277092
+                },
+                {
+                    "start_epoch_ms": 1502590107000,
+                    "end_epoch_ms": 1502590117000,
+                    "value": 0.4509425054944044
+                },
+                {
+                    "start_epoch_ms": 1502590117000,
+                    "end_epoch_ms": 1502590127000,
+                    "value": 0.4493013855580662
+                },
+                {
+                    "start_epoch_ms": 1502590127000,
+                    "end_epoch_ms": 1502590137000,
+                    "value": 0.4494512989540951
+                },
+                {
+                    "start_epoch_ms": 1502590137000,
+                    "end_epoch_ms": 1502590147000,
+                    "value": 0.4539767151244057
+                },
+                {
+                    "start_epoch_ms": 1502590147000,
+                    "end_epoch_ms": 1502590157000,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590157000,
+                    "end_epoch_ms": 1502590167000,
+                    "value": 0.02108413246728999
+                },
+                {
+                    "start_epoch_ms": 1502590167000,
+                    "end_epoch_ms": 1502590177000,
+                    "value": 0.02108413246728999
+                },
+                {
+                    "start_epoch_ms": 1502590177000,
+                    "end_epoch_ms": 1502590187000,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590187000,
+                    "end_epoch_ms": 1502590197000,
+                    "value": 0.02108413246728999
+                },
+                {
+                    "start_epoch_ms": 1502590197000,
+                    "end_epoch_ms": 1502590207000,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590207000,
+                    "end_epoch_ms": 1502590217000,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590217000,
+                    "end_epoch_ms": 1502590227000,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590227000,
+                    "end_epoch_ms": 1502590237000,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590237000,
+                    "end_epoch_ms": 1502590247000,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590247000,
+                    "end_epoch_ms": 1502590257000,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590257000,
+                    "end_epoch_ms": 1502590267000,
+                    "value": 1.887026743801567
+                },
+                {
+                    "start_epoch_ms": 1502590267000,
+                    "end_epoch_ms": 1502590277000,
+                    "value": 2.266807880624311
+                },
+                {
+                    "start_epoch_ms": 1502590277000,
+                    "end_epoch_ms": 1502590287000,
+                    "value": 0.03783246571065058
+                },
+                {
+                    "start_epoch_ms": 1502590287000,
+                    "end_epoch_ms": 1502590297000,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590297000,
+                    "end_epoch_ms": 1502590307000,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590307000,
+                    "end_epoch_ms": 1502590317000,
+                    "value": 0.0141860176570506
+                },
+                {
+                    "start_epoch_ms": 1502590317000,
+                    "end_epoch_ms": 1502590327000,
+                    "value": 0.0141860176570506
+                },
+                {
+                    "start_epoch_ms": 1502590327000,
+                    "end_epoch_ms": 1502590337000,
+                    "value": 0.0141860176570506
+                },
+                {
+                    "start_epoch_ms": 1502590337000,
+                    "end_epoch_ms": 1502590347000,
+                    "value": 0.0141860176570506
+                },
+                {
+                    "start_epoch_ms": 1502590347000,
+                    "end_epoch_ms": 1502590357000,
+                    "value": 0.0141860176570506
+                },
+                {
+                    "start_epoch_ms": 1502590357000,
+                    "end_epoch_ms": 1502590367000,
+                    "value": 0.0141860176570506
+                },
+                {
+                    "start_epoch_ms": 1502590367000,
+                    "end_epoch_ms": 1502590377000,
+                    "value": 0.0141860176570506
+                },
+                {
+                    "start_epoch_ms": 1502590377000,
+                    "end_epoch_ms": 1502590387000,
+                    "value": 1.612908532362899
+                },
+                {
+                    "start_epoch_ms": 1502590387000,
+                    "end_epoch_ms": 1502590397000,
+                    "value": 0.03782629563013153
+                },
+                {
+                    "start_epoch_ms": 1502590397000,
+                    "end_epoch_ms": 1502590407000,
+                    "value": 0.03782629563013153
+                },
+                {
+                    "start_epoch_ms": 1502590407000,
+                    "end_epoch_ms": 1502590417000,
+                    "value": 1.257906317879288
+                },
+                {
+                    "start_epoch_ms": 1502590417000,
+                    "end_epoch_ms": 1502590427000,
+                    "value": 2.420306592956694
+                },
+                {
+                    "start_epoch_ms": 1502590427000,
+                    "end_epoch_ms": 1502590437000,
+                    "value": 2.634151322282781
+                },
+                {
+                    "start_epoch_ms": 1502590437000,
+                    "end_epoch_ms": 1502590447000,
+                    "value": 2.415010776885721
+                },
+                {
+                    "start_epoch_ms": 1502590447000,
+                    "end_epoch_ms": 1502590457000,
+                    "value": 2.337477493320222
+                },
+                {
+                    "start_epoch_ms": 1502590457000,
+                    "end_epoch_ms": 1502590467000,
+                    "value": 1.624878288360788
+                },
+                {
+                    "start_epoch_ms": 1502590467000,
+                    "end_epoch_ms": 1502590477000,
+                    "value": 2.502073243388242
+                },
+                {
+                    "start_epoch_ms": 1502590487000,
+                    "end_epoch_ms": 1502590497000,
+                    "value": 0
+                },
+                {
+                    "start_epoch_ms": 1502590687000,
+                    "end_epoch_ms": 1502590697000,
+                    "value": 0
+                }
+            ]
+        },
+        {
+            "type": "rpe",
+            "unit": "RATING",
+            "source": "com.nike.running.ios.manualentry",
+            "appId": "com.nike.sport.running.ios",
+            "values": [
+                {
+                    "start_epoch_ms": 1502580457178,
+                    "end_epoch_ms": 1502590701830,
+                    "value": 4
+                }
+            ]
+        },
+        {
+            "type": "calories",
+            "unit": "KCAL",
+            "source": "com.nike.running.ios.applewatch",
+            "appId": "com.nike.sport.running.ios",
+            "values": [
+                {
+                    "start_epoch_ms": 1502590090110,
+                    "end_epoch_ms": 1502590090429,
+                    "value": 0.005
+                },
+                {
+                    "start_epoch_ms": 1502590090429,
+                    "end_epoch_ms": 1502590092664,
+                    "value": 0.033
+                },
+                {
+                    "start_epoch_ms": 1502590092664,
+                    "end_epoch_ms": 1502590094580,
+                    "value": 0.028
+                },
+                {
+                    "start_epoch_ms": 1502590094580,
+                    "end_epoch_ms": 1502590095218,
+                    "value": 0.008999999999999994
+                },
+                {
+                    "start_epoch_ms": 1502590095218,
+                    "end_epoch_ms": 1502590097773,
+                    "value": 0.03800000000000002
+                },
+                {
+                    "start_epoch_ms": 1502590097773,
+                    "end_epoch_ms": 1502590100327,
+                    "value": 0.03800000000000001
+                },
+                {
+                    "start_epoch_ms": 1502590100327,
+                    "end_epoch_ms": 1502590102881,
+                    "value": 0.03800000000000001
+                },
+                {
+                    "start_epoch_ms": 1502590102881,
+                    "end_epoch_ms": 1502590105435,
+                    "value": 0.03800000000000001
+                },
+                {
+                    "start_epoch_ms": 1502590105435,
+                    "end_epoch_ms": 1502590107989,
+                    "value": 0.03800000000000003
+                },
+                {
+                    "start_epoch_ms": 1502590107989,
+                    "end_epoch_ms": 1502590110544,
+                    "value": 0.03799999999999998
+                },
+                {
+                    "start_epoch_ms": 1502590110544,
+                    "end_epoch_ms": 1502590113098,
+                    "value": 0.03800000000000003
+                },
+                {
+                    "start_epoch_ms": 1502590113098,
+                    "end_epoch_ms": 1502590114056,
+                    "value": 0.01399999999999996
+                },
+                {
+                    "start_epoch_ms": 1502590114056,
+                    "end_epoch_ms": 1502590115652,
+                    "value": 0.02300000000000002
+                },
+                {
+                    "start_epoch_ms": 1502590115652,
+                    "end_epoch_ms": 1502590118207,
+                    "value": 0.03799999999999998
+                },
+                {
+                    "start_epoch_ms": 1502590118207,
+                    "end_epoch_ms": 1502590120761,
+                    "value": 0.03800000000000003
+                },
+                {
+                    "start_epoch_ms": 1502590120761,
+                    "end_epoch_ms": 1502590121081,
+                    "value": 0.005000000000000004
+                },
+                {
+                    "start_epoch_ms": 1502590121081,
+                    "end_epoch_ms": 1502590121400,
+                    "value": 0.005000000000000004
+                },
+                {
+                    "start_epoch_ms": 1502590121400,
+                    "end_epoch_ms": 1502590123316,
+                    "value": 0.02799999999999997
+                },
+                {
+                    "start_epoch_ms": 1502590123316,
+                    "end_epoch_ms": 1502590125232,
+                    "value": 0.02799999999999997
+                },
+                {
+                    "start_epoch_ms": 1502590125232,
+                    "end_epoch_ms": 1502590125870,
+                    "value": 0.009000000000000008
+                },
+                {
+                    "start_epoch_ms": 1502590125870,
+                    "end_epoch_ms": 1502590127467,
+                    "value": 0.02300000000000002
+                },
+                {
+                    "start_epoch_ms": 1502590127467,
+                    "end_epoch_ms": 1502590128425,
+                    "value": 0.0139999999999999
+                },
+                {
+                    "start_epoch_ms": 1502590128425,
+                    "end_epoch_ms": 1502590130660,
+                    "value": 0.03300000000000003
+                },
+                {
+                    "start_epoch_ms": 1502590130660,
+                    "end_epoch_ms": 1502590130980,
+                    "value": 0.005000000000000004
+                },
+                {
+                    "start_epoch_ms": 1502590130980,
+                    "end_epoch_ms": 1502590132257,
+                    "value": 0.01900000000000002
+                },
+                {
+                    "start_epoch_ms": 1502590132257,
+                    "end_epoch_ms": 1502590133535,
+                    "value": 0.01900000000000002
+                },
+                {
+                    "start_epoch_ms": 1502590133535,
+                    "end_epoch_ms": 1502590134493,
+                    "value": 0.01400000000000001
+                },
+                {
+                    "start_epoch_ms": 1502590134493,
+                    "end_epoch_ms": 1502590136089,
+                    "value": 0.02300000000000002
+                },
+                {
+                    "start_epoch_ms": 1502590136089,
+                    "end_epoch_ms": 1502590138644,
+                    "value": 0.03799999999999992
+                },
+                {
+                    "start_epoch_ms": 1502590138644,
+                    "end_epoch_ms": 1502590141198,
+                    "value": 0.03800000000000003
+                },
+                {
+                    "start_epoch_ms": 1502590141198,
+                    "end_epoch_ms": 1502590143753,
+                    "value": 0.03800000000000003
+                },
+                {
+                    "start_epoch_ms": 1502590143753,
+                    "end_epoch_ms": 1502590146307,
+                    "value": 0.03799999999999992
+                },
+                {
+                    "start_epoch_ms": 1502590146307,
+                    "end_epoch_ms": 1502590148862,
+                    "value": 0.03800000000000003
+                },
+                {
+                    "start_epoch_ms": 1502590148862,
+                    "end_epoch_ms": 1502590151417,
+                    "value": 0.03800000000000003
+                },
+                {
+                    "start_epoch_ms": 1502590151417,
+                    "end_epoch_ms": 1502590153972,
+                    "value": 0.03799999999999992
+                },
+                {
+                    "start_epoch_ms": 1502590153972,
+                    "end_epoch_ms": 1502590207527,
+                    "value": 0.03700000000000003
+                },
+                {
+                    "start_epoch_ms": 1502590207527,
+                    "end_epoch_ms": 1502590210053,
+                    "value": 0.03699999999999992
+                },
+                {
+                    "start_epoch_ms": 1502590210053,
+                    "end_epoch_ms": 1502590212578,
+                    "value": 0.03700000000000014
+                },
+                {
+                    "start_epoch_ms": 1502590212578,
+                    "end_epoch_ms": 1502590215104,
+                    "value": 0.03699999999999992
+                },
+                {
+                    "start_epoch_ms": 1502590215104,
+                    "end_epoch_ms": 1502590217629,
+                    "value": 0.03699999999999992
+                },
+                {
+                    "start_epoch_ms": 1502590217629,
+                    "end_epoch_ms": 1502590220155,
+                    "value": 0.03700000000000014
+                },
+                {
+                    "start_epoch_ms": 1502590220155,
+                    "end_epoch_ms": 1502590222681,
+                    "value": 0.03699999999999992
+                },
+                {
+                    "start_epoch_ms": 1502590222681,
+                    "end_epoch_ms": 1502590225206,
+                    "value": 0.03700000000000014
+                },
+                {
+                    "start_epoch_ms": 1502590225206,
+                    "end_epoch_ms": 1502590227732,
+                    "value": 0.03699999999999992
+                },
+                {
+                    "start_epoch_ms": 1502590227732,
+                    "end_epoch_ms": 1502590229626,
+                    "value": 0.02699999999999991
+                },
+                {
+                    "start_epoch_ms": 1502590229626,
+                    "end_epoch_ms": 1502590230257,
+                    "value": 0.009000000000000119
+                },
+                {
+                    "start_epoch_ms": 1502590230257,
+                    "end_epoch_ms": 1502590232888,
+                    "value": 0.03899999999999992
+                },
+                {
+                    "start_epoch_ms": 1502590232888,
+                    "end_epoch_ms": 1502590235442,
+                    "value": 0.03800000000000003
+                },
+                {
+                    "start_epoch_ms": 1502590235442,
+                    "end_epoch_ms": 1502590237996,
+                    "value": 0.03800000000000003
+                },
+                {
+                    "start_epoch_ms": 1502590237996,
+                    "end_epoch_ms": 1502590240550,
+                    "value": 0.03800000000000003
+                },
+                {
+                    "start_epoch_ms": 1502590240550,
+                    "end_epoch_ms": 1502590243104,
+                    "value": 0.03799999999999981
+                },
+                {
+                    "start_epoch_ms": 1502590243104,
+                    "end_epoch_ms": 1502590245658,
+                    "value": 0.03800000000000003
+                },
+                {
+                    "start_epoch_ms": 1502590245658,
+                    "end_epoch_ms": 1502590248212,
+                    "value": 0.03800000000000003
+                },
+                {
+                    "start_epoch_ms": 1502590248212,
+                    "end_epoch_ms": 1502590260983,
+                    "value": 0.03800000000000003
+                },
+                {
+                    "start_epoch_ms": 1502590260983,
+                    "end_epoch_ms": 1502590263537,
+                    "value": 0.03800000000000003
+                },
+                {
+                    "start_epoch_ms": 1502590263537,
+                    "end_epoch_ms": 1502590266092,
+                    "value": 0.09200000000000008
+                },
+                {
+                    "start_epoch_ms": 1502590266092,
+                    "end_epoch_ms": 1502590268007,
+                    "value": 0.06899999999999995
+                },
+                {
+                    "start_epoch_ms": 1502590268007,
+                    "end_epoch_ms": 1502590268646,
+                    "value": 0.02299999999999991
+                },
+                {
+                    "start_epoch_ms": 1502590268646,
+                    "end_epoch_ms": 1502590299299,
+                    "value": 0.03800000000000003
+                },
+                {
+                    "start_epoch_ms": 1502590299299,
+                    "end_epoch_ms": 1502590381047,
+                    "value": 0.03800000000000003
+                },
+                {
+                    "start_epoch_ms": 1502590381047,
+                    "end_epoch_ms": 1502590383602,
+                    "value": 0.03800000000000003
+                },
+                {
+                    "start_epoch_ms": 1502590383602,
+                    "end_epoch_ms": 1502590414260,
+                    "value": 0.03800000000000003
+                },
+                {
+                    "start_epoch_ms": 1502590414260,
+                    "end_epoch_ms": 1502590416815,
+                    "value": 0.03800000000000003
+                },
+                {
+                    "start_epoch_ms": 1502590416815,
+                    "end_epoch_ms": 1502590419369,
+                    "value": 0.03799999999999981
+                },
+                {
+                    "start_epoch_ms": 1502590419369,
+                    "end_epoch_ms": 1502590421924,
+                    "value": 0.09299999999999997
+                },
+                {
+                    "start_epoch_ms": 1502590421924,
+                    "end_epoch_ms": 1502590424479,
+                    "value": 0.09299999999999997
+                },
+                {
+                    "start_epoch_ms": 1502590424479,
+                    "end_epoch_ms": 1502590427034,
+                    "value": 0.09299999999999997
+                },
+                {
+                    "start_epoch_ms": 1502590427034,
+                    "end_epoch_ms": 1502590429589,
+                    "value": 0.137
+                },
+                {
+                    "start_epoch_ms": 1502590429589,
+                    "end_epoch_ms": 1502590432144,
+                    "value": 0.137
+                },
+                {
+                    "start_epoch_ms": 1502590432144,
+                    "end_epoch_ms": 1502590434699,
+                    "value": 0.137
+                },
+                {
+                    "start_epoch_ms": 1502590434699,
+                    "end_epoch_ms": 1502590437254,
+                    "value": 0.1270000000000002
+                },
+                {
+                    "start_epoch_ms": 1502590437254,
+                    "end_epoch_ms": 1502590463764,
+                    "value": 0.01399999999999979
+                },
+                {
+                    "start_epoch_ms": 1502590463764,
+                    "end_epoch_ms": 1502590465361,
+                    "value": 0.02300000000000013
+                },
+                {
+                    "start_epoch_ms": 1502590465361,
+                    "end_epoch_ms": 1502590467916,
+                    "value": 0.03799999999999981
+                }
+            ]
+        },
+        {
+            "type": "heart_rate",
+            "unit": "BPM",
+            "source": "com.nike.running.ios.applewatch",
+            "appId": "com.nike.sport.running.ios",
+            "values": [
+                {
+                    "start_epoch_ms": 1502590139339,
+                    "end_epoch_ms": 1502590139339,
+                    "value": 95
+                },
+                {
+                    "start_epoch_ms": 1502590144339,
+                    "end_epoch_ms": 1502590144339,
+                    "value": 95
+                },
+                {
+                    "start_epoch_ms": 1502590414266,
+                    "end_epoch_ms": 1502590414266,
+                    "value": 104
+                },
+                {
+                    "start_epoch_ms": 1502590419316,
+                    "end_epoch_ms": 1502590419316,
+                    "value": 104
+                }
+            ]
+        }
+    ],
+    "moments": [
+        {
+            "key": "halt",
+            "value": "auto_pause",
+            "timestamp": 1502590161752,
+            "app_id": "com.nike.sport.running.ios",
+            "source": "com.nike.running.ios.applewatch"
+        },
+        {
+            "key": "halt",
+            "value": "auto_resume",
+            "timestamp": 1502590166783,
+            "app_id": "com.nike.sport.running.ios",
+            "source": "com.nike.running.ios.applewatch"
+        },
+        {
+            "key": "halt",
+            "value": "auto_pause",
+            "timestamp": 1502590171955,
+            "app_id": "com.nike.sport.running.ios",
+            "source": "com.nike.running.ios.applewatch"
+        },
+        {
+            "key": "halt",
+            "value": "auto_resume",
+            "timestamp": 1502590180827,
+            "app_id": "com.nike.sport.running.ios",
+            "source": "com.nike.running.ios.applewatch"
+        },
+        {
+            "key": "halt",
+            "value": "auto_pause",
+            "timestamp": 1502590188488,
+            "app_id": "com.nike.sport.running.ios",
+            "source": "com.nike.running.ios.applewatch"
+        },
+        {
+            "key": "halt",
+            "value": "auto_resume",
+            "timestamp": 1502590194885,
+            "app_id": "com.nike.sport.running.ios",
+            "source": "com.nike.running.ios.applewatch"
+        },
+        {
+            "key": "halt",
+            "value": "auto_pause",
+            "timestamp": 1502590196149,
+            "app_id": "com.nike.sport.running.ios",
+            "source": "com.nike.running.ios.applewatch"
+        },
+        {
+            "key": "halt",
+            "value": "auto_resume",
+            "timestamp": 1502590202516,
+            "app_id": "com.nike.sport.running.ios",
+            "source": "com.nike.running.ios.applewatch"
+        },
+        {
+            "key": "halt",
+            "value": "auto_pause",
+            "timestamp": 1502590254627,
+            "app_id": "com.nike.sport.running.ios",
+            "source": "com.nike.running.ios.applewatch"
+        },
+        {
+            "key": "halt",
+            "value": "auto_resume",
+            "timestamp": 1502590255917,
+            "app_id": "com.nike.sport.running.ios",
+            "source": "com.nike.running.ios.applewatch"
+        },
+        {
+            "key": "halt",
+            "value": "auto_pause",
+            "timestamp": 1502590275066,
+            "app_id": "com.nike.sport.running.ios",
+            "source": "com.nike.running.ios.applewatch"
+        },
+        {
+            "key": "halt",
+            "value": "auto_resume",
+            "timestamp": 1502590295492,
+            "app_id": "com.nike.sport.running.ios",
+            "source": "com.nike.running.ios.applewatch"
+        },
+        {
+            "key": "halt",
+            "value": "auto_pause",
+            "timestamp": 1502590307009,
+            "app_id": "com.nike.sport.running.ios",
+            "source": "com.nike.running.ios.applewatch"
+        },
+        {
+            "key": "halt",
+            "value": "auto_resume",
+            "timestamp": 1502590377239,
+            "app_id": "com.nike.sport.running.ios",
+            "source": "com.nike.running.ios.applewatch"
+        },
+        {
+            "key": "halt",
+            "value": "auto_pause",
+            "timestamp": 1502590393901,
+            "app_id": "com.nike.sport.running.ios",
+            "source": "com.nike.running.ios.applewatch"
+        },
+        {
+            "key": "halt",
+            "value": "auto_resume",
+            "timestamp": 1502590410461,
+            "app_id": "com.nike.sport.running.ios",
+            "source": "com.nike.running.ios.applewatch"
+        },
+        {
+            "key": "halt",
+            "value": "auto_pause",
+            "timestamp": 1502590452760,
+            "app_id": "com.nike.sport.running.ios",
+            "source": "com.nike.running.ios.applewatch"
+        },
+        {
+            "key": "halt",
+            "value": "auto_resume",
+            "timestamp": 1502590461559,
+            "app_id": "com.nike.sport.running.ios",
+            "source": "com.nike.running.ios.applewatch"
+        },
+        {
+            "key": "halt",
+            "value": "auto_pause",
+            "timestamp": 1502590475630,
+            "app_id": "com.nike.sport.running.ios",
+            "source": "com.nike.running.ios.applewatch"
+        },
+        {
+            "key": "halt",
+            "value": "auto_resume",
+            "timestamp": 1502590493510,
+            "app_id": "com.nike.sport.running.ios",
+            "source": "com.nike.running.ios.applewatch"
+        },
+        {
+            "key": "halt",
+            "value": "auto_pause",
+            "timestamp": 1502590499873,
+            "app_id": "com.nike.sport.running.ios",
+            "source": "com.nike.running.ios.applewatch"
+        },
+        {
+            "key": "halt",
+            "value": "auto_resume",
+            "timestamp": 1502590686378,
+            "app_id": "com.nike.sport.running.ios",
+            "source": "com.nike.running.ios.applewatch"
+        },
+        {
+            "key": "halt",
+            "value": "pause",
+            "timestamp": 1502590696949,
+            "app_id": "com.nike.sport.running.ios",
+            "source": "com.nike.running.ios.applewatch"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "id": "38c9450b-aa69-42f1-b732-a5b1f99ee1c4",
+    "type": "run",
+    "app_id": "com.nike.sport.running.ios",
+    "start_epoch_ms": 1472862849371,
+    "end_epoch_ms": 1472872045553,
+    "last_modified": 1472893308412,
+    "active_duration_ms": 9196182,
+    "session": false,
+    "delete_indicator": false,
+    "summaries": [],
+    "sources": [],
+    "tags": {
+        "com_nike_name": "\u661f\u671f\u516d  \u6668\u95f4\u8dd1\u6b65"
+    },
+    "change_tokens": [
+        "e8eaad5886614a79389f5a39ea26865dfd815ae1a25675af5c5f99a2e06a9906:1472893308412",
+        "de682d82461f4aef9328c8157621d09b4a02a85298d867527cca1207913fe6cd:1472893155673"
+    ],
+    "metric_types": [],
+    "moments": []
+}
