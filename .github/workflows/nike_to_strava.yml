@@ -1,4 +1,4 @@
-name: Run Data Sync
+name: Run nike_to_strava
 
 on:
   workflow_dispatch:
