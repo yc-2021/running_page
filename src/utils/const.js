@@ -24,13 +24,13 @@ const CHINESE_LOCATION_INFO_MESSAGE_FIRST =
 const CHINESE_LOCATION_INFO_MESSAGE_SECOND = '不要停下来，不要停下奔跑的脚步';
 
 const INFO_MESSAGE = IS_CHINESE ? CHINESE_INFO_MESSAGE : ENGLISH_INFO_MESSAGE;
-const FULL_MARATHON_RUN_TITLE = IS_CHINESE ? '全程马拉松' : 'Full Marathon';
-const HALF_MARATHON_RUN_TITLE = IS_CHINESE ? '半程马拉松' : 'Half Marathon';
-const MORNING_RUN_TITLE = IS_CHINESE ? '清晨跑步' : 'Morning Run';
-const LUNCH_RUN_TITLE = IS_CHINESE ? '上午跑步' : 'Lunch Run';
-const AFTERNOON_RUN_TITLE = IS_CHINESE ? '午后跑步' : 'Afternoon Run';
-const EVENING_RUN_TITLE = IS_CHINESE ? '傍晚跑步' : 'Evening Run';
-const NIGHT_RUN_TITLE = IS_CHINESE ? '夜晚跑步' : 'Night Run';
+const FULL_MARATHON_RUN_TITLE = IS_CHINESE ? '1全程马拉松' : '1Full Marathon';
+const HALF_MARATHON_RUN_TITLE = IS_CHINESE ? '2半程马拉松' : '2Half Marathon';
+const MORNING_RUN_TITLE = IS_CHINESE ? '3清晨跑步' : '3Morning Run';
+const LUNCH_RUN_TITLE = IS_CHINESE ? '4上午跑步' : '4Lunch Run';
+const AFTERNOON_RUN_TITLE = IS_CHINESE ? '5午后跑步' : '5Afternoon Run';
+const EVENING_RUN_TITLE = IS_CHINESE ? '6傍晚跑步' : '6Evening Run';
+const NIGHT_RUN_TITLE = IS_CHINESE ? '7夜晚跑步' : '7Night Run';
 
 const RUN_TITLES = {
   FULL_MARATHON_RUN_TITLE,
