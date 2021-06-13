@@ -86,7 +86,7 @@ if __name__ == "__main__":
             upload_gpx(client, f)
 
     time.sleep(
-        10
+        100
     )  # Fix the issue that the github action runs too fast, resulting in unsuccessful file generation
 
     run_strava_sync(
