@@ -3,7 +3,7 @@ module.exports = {
   siteMetadata: {
     siteTitle: ' YC\'s Running Page',
     siteUrl: 'https://ycrunning.vercel.app/',
-    logo: 'https://images.gitee.com/uploads/images/2021/0615/144753_19070ca6_9277807.png',
+    logo: 'https://raw.githubusercontent.com/yc-2021/running_page/master/src/images/yclogo.png',
     description: 'Personal site and blog',
     navLinks: [
       {
