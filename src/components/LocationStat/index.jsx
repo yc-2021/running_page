@@ -19,7 +19,7 @@ const LocationStat = ({ changeYear, changeCity, changeTitle }) => (
         .
         <br />
         <br />
-        Yesterday you said tomorrow.
+        Just do it.
       </p>
     </section>
     <hr color="red" />

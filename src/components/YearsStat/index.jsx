@@ -18,6 +18,12 @@ const YearsStat = ({ year, onClick }) => {
         <p style={{ lineHeight: 1.8 }}>
           {INFO_MESSAGE(years.length, year)}
           <br />
+          <br />
+          享受慢跑过程中的阳光照耀、微风吹拂……以及内心的安宁。
+          <br />
+          {
+            //<p style={quoteStyle}>&ndash;&ndash;YC</p> 
+          }
         </p>
       </section>
       <hr color="red" />
