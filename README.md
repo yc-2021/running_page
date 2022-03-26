@@ -1,4 +1,4 @@
-## “享受慢跑过程中的阳光、微风……以及内心的安宁。”
+## “享受慢跑过程中的微风、阳光、……”
 ## [打造个人跑步主页](https://github.com/yihong0618/running_page/issues/12)
 
 这是来自 [@yihong0618](https://github.com/yihong0618) 的项目 [running_page](https://github.com/yihong0618/running_page)，感谢 [@yihong0618](https://github.com/yihong0618) 的开源精神，它可以帮助我们做以下事情：
