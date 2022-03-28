@@ -31,7 +31,7 @@ const CHINESE_LOCATION_INFO_MESSAGE_FIRST =
 const CHINESE_LOCATION_INFO_MESSAGE_SECOND = 'If you cannot do great things, do small things in a great way';
 
 const INFO_MESSAGE = IS_CHINESE ? CHINESE_INFO_MESSAGE : ENGLISH_INFO_MESSAGE;
-const FULL_MARATHON_RUN_TITLE = IS_CHINESE ? '1全程马拉松' : '1Full Marathon';
+const FULL_MARATHON_RUN_TITLE = IS_CHINESE ? '1全程马拉松' : '1Full Marathon';  //will sort by the first char
 const HALF_MARATHON_RUN_TITLE = IS_CHINESE ? '2半程马拉松' : '2Half Marathon';
 const MORNING_RUN_TITLE = IS_CHINESE ? '3清晨跑步' : '3Morning Run';
 const MIDDAY_RUN_TITLE = IS_CHINESE ? '4午间跑步' : '4Midday Run';
