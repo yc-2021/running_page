@@ -1,7 +1,8 @@
 import * as mapboxPolyline from '@mapbox/polyline';
+import gcoord from 'gcoord';
 import { WebMercatorViewport } from 'react-map-gl';
 import { chinaGeojson } from '../static/run_countries';
-import { MUNICIPALITY_CITIES_ARR, RUN_TITLES } from './const';
+import { MUNICIPALITY_CITIES_ARR, NEED_FIX_MAP, RUN_TITLES } from './const';
 
 const titleForShow = (run) => {
   const date = run.start_date_local.slice(0, 11);
@@ -24,6 +25,19 @@ const formatPace = (d) => {
   const minutes = Math.floor(pace);
   const seconds = Math.floor((pace - minutes) * 60.0);
   return `${minutes}:${seconds.toFixed(0).toString().padStart(2, '0')}`;
+};
+
+const formatRunTime = (distance,pace) => {
+  if (Number.isNaN(distance) || Number.isNaN(pace)) {
+    return '0min';
+  }
+  const formatPace = (1000.0 / 60.0) * (1.0 / pace);
+  const minutes = Math.floor(formatPace * distance);
+  if (minutes === 0) {
+    const seconds = Math.floor((formatPace * distance - minutes) * 60.0);
+    return seconds + 's';
+  }
+  return minutes + 'min';
 };
 
 // for scroll to the map
@@ -78,7 +92,7 @@ const pathForRun = (run) => {
     const c = mapboxPolyline.decode(run.summary_polyline);
     // reverse lat long for mapbox
     c.forEach((arr) => {
-      [arr[0], arr[1]] = [arr[1], arr[0]];
+      [arr[0], arr[1]] = !NEED_FIX_MAP ? [arr[1], arr[0]] : gcoord.transform([arr[1], arr[0]], gcoord.GCJ02, gcoord.WGS84);
     });
     return c;
   } catch (err) {
@@ -115,13 +129,13 @@ const titleForRun = (run) => {
   if (runDistance >= 40) {
     return RUN_TITLES.FULL_MARATHON_RUN_TITLE;
   }
-  if (runHour >= 0 && runHour <= 8) {
+  if (runHour >= 0 && runHour <= 10) {
     return RUN_TITLES.MORNING_RUN_TITLE;
   }
-  if (runHour > 8 && runHour <= 12) {
-    return RUN_TITLES.LUNCH_RUN_TITLE;
+  if (runHour > 10 && runHour <= 14) {
+    return RUN_TITLES.MIDDAY_RUN_TITLE;
   }
-  if (runHour > 12 && runHour <= 18) {
+  if (runHour > 14 && runHour <= 18) {
     return RUN_TITLES.AFTERNOON_RUN_TITLE;
   }
   if (runHour > 18 && runHour <= 21) {
@@ -207,4 +221,5 @@ export {
   sortDateFunc,
   sortDateFuncReverse,
   getBoundsForGeoData,
+  formatRunTime,
 };

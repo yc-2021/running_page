@@ -1,5 +1,6 @@
 import os
 from collections import namedtuple
+from re import M
 
 import yaml
 
@@ -14,6 +15,8 @@ BASE_URL = "https://api.nike.com/sport/v3/me"
 TOKEN_REFRESH_URL = "https://unite.nike.com/tokenRefresh"
 NIKE_CLIENT_ID = "HlHa2Cje3ctlaOqnxvgZXNaAs7T9nAuH"
 BASE_TIMEZONE = "Asia/Shanghai"
+
+ENDOMONDO_FILE_DIR = "Workouts"
 
 start_point = namedtuple("start_point", "lat lon")
 run_map = namedtuple("polyline", "summary_polyline")
@@ -35,3 +38,13 @@ def config(*keys):
         return dct
 
     return safeget(_config, *keys)
+
+
+# add more type here
+STRAVA_GARMIN_TYPE_DICT = {
+    "Hike": "hiking",
+    "Run": "running",
+    "EBikeRide": "cycling",
+    "Walk": "walking",
+    "Swim": "swimming",
+}
