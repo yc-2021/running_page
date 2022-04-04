@@ -406,7 +406,6 @@ def make_new_gpxs(files):
         generator.sync_from_app(tracks_list)
     return gpx_files
 
-
 if __name__ == "__main__":
     if not os.path.exists(OUTPUT_DIR):
         os.mkdir(OUTPUT_DIR)
