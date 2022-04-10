@@ -16,10 +16,10 @@ const YearsStat = ({ year, onClick }) => {
     <div className="fl w-100 w-30-l pb5 pr5-l">
       <section className="pb4" style={{ paddingBottom: '0rem' }}>
         <p style={{ lineHeight: 1.8 }}>
-          {INFO_MESSAGE(years.length, year)}
-          <br />
-          <br />
           “感受慢跑过程中的阳光、微风、……”
+          <br />
+          <br />
+          {INFO_MESSAGE(years.length, year)}
           <br />
           {
             //<p style={quoteStyle}>&ndash;&ndash;YC</p> 
