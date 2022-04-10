@@ -19,7 +19,7 @@ const YearsStat = ({ year, onClick }) => {
           {INFO_MESSAGE(years.length, year)}
           <br />
           <br />
-          “享受慢跑过程中的微风、阳光、……”
+          “感受慢跑过程中的阳光、微风、……”
           <br />
           {
             //<p style={quoteStyle}>&ndash;&ndash;YC</p> 
