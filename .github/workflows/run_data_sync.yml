@@ -114,7 +114,6 @@ jobs:
 
       - name: Push new runs
       run: |
-          git config --global --add safe.directory /github/workspace
           git config --local user.email "${{ env.GITHUB_EMAIL }}"
           git config --local user.name "${{ env.GITHUB_EMAIL }}"
           git commit -a -m 'update new runs' || echo "nothing to commit"
